@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="custom_redirects"
+        android:defaultValue="false"
+        android:title="@string/custom_redirects" />
+
+    <CheckBoxPreference
+        android:title="@string/setting_title_clipboard_record"
+        android:defaultValue="false"
+        android:key="sp_clipboard_record" />
+
+    <PreferenceCategory android:title="@string/setting_title_profiles">
+
+        <ListPreference
+            android:defaultValue="profileStandard"
+            android:entries="@array/profileToStart_entries"
+            android:entryValues="@array/profileToStart_values"
+            android:key="profile_toStart"
+            android:title="@string/setting_title_profiles_startApp" />
+
+        <Preference
+            android:icon="@drawable/icon_edit"
+            android:key="settings_profile"
+            android:title="@string/setting_title_profiles_edit" />
+
+        <Preference
+            android:icon="@drawable/icon_profile_trusted"
+            android:key="edit_trusted"
+            android:title="@string/setting_title_profiles_trustedList" />
+
+        <Preference
+            android:icon="@drawable/icon_profile_standard"
+            android:key="edit_standard"
+            android:title="@string/setting_title_profiles_standardList" />
+
+        <Preference
+            android:icon="@drawable/icon_profile_protected"
+            android:key="edit_protected"
+            android:title="@string/setting_title_profiles_protectedList" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_title_adblock"
+        android:icon="@drawable/icon_adblock">
+
+        <Preference
+            android:key="sp_ad_block"
+            android:summary="@string/setting_summary_adblock" />
+
+        <ListPreference
+            android:defaultValue="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+            android:entries="@array/setting_entries_adBlock"
+            android:entryValues="@array/setting_values_adBlock"
+            android:key="ab_hosts"
+            android:title="@string/setting_title_adblockHost" />
+
+        <Preference
+            android:key="custom_adblock"
+            android:selectable="true"
+            android:title="@string/custom_domains" />
+
+        <Preference
+            android:key="refreshHosts"
+            android:selectable="true"
+            android:title="@string/menu_reload"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

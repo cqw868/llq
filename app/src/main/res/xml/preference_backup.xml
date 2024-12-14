@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="sp_backup_quit"
+        android:summary="@string/setting_title_backup_exit" />
+
+    <Preference android:summary="@string/data_summary" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="database"
+        android:summary="@string/title_appDatabase" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings"
+        android:summary="@string/setting_label"
+        android:icon="@drawable/icon_settings" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="java"
+        android:summary="@string/setting_title_profiles_trustedList"
+        android:icon="@drawable/icon_profile_trusted" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="dom"
+        android:summary="@string/setting_title_profiles_standardList"
+        android:icon="@drawable/icon_profile_standard" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cookie"
+        android:summary="@string/setting_title_profiles_protectedList"
+        android:icon="@drawable/icon_profile_protected" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="bookmark"
+        android:summary="@string/album_title_bookmarks"
+        android:icon="@drawable/icon_bookmark" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="bookmark_simple"
+        android:summary="@string/album_title_bookmarks_simple" />
+
+</PreferenceScreen>
