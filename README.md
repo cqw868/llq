@@ -54,4 +54,4 @@ Backup all your important data (bookmarks, history, trusted websites and so on) 
 ----
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="50"/>](https://f-droid.org/packages/de.baumann.browser/)
-[<img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" alt="Donate" height="50"/>](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NP6TGYDYP9SHY)
+[<img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" alt="Donate" height="50"/>](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NP6TGYDYP9SHY)dfdfd
